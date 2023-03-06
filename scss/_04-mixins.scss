@@ -1,0 +1,16 @@
+@mixin centerAll{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+@mixin centerSpaceBetween{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+@mixin mediaQuery($width: 40rem){
+    @media screen and (max-width: $width) {
+        @content;  
+    }
+}

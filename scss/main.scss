@@ -1,0 +1,14 @@
+@import "_01-variables";
+@import "_02-resets";
+@import "_03-base";
+@import "_04-mixins";
+@import "_05-grid";
+
+// COMPONENT
+@import "./components/header";
+@import "./components/footer";
+
+// PAGES
+@import "./pages/landing.scss";
+
+@import "_06-utilities";
