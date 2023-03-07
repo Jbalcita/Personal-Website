@@ -118,6 +118,12 @@ hr {
   .footer ul {
     display: block;
   }
+  .footer #p {
+    display: none;
+  }
+  .footer p {
+    float: left;
+  }
 }
 
 .slider h1 {
