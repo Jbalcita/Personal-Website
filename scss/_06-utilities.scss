@@ -1,5 +1,6 @@
 $colors: (
     "primary" : $clr-primary,
+    "secondary" : $clr-secondary,
     "gray" : $clr-gray,
     "dark" : $clr-black,
     "light" : $clr-white,
@@ -83,3 +84,27 @@ $alignments: (
   }
  
 }
+
+@for $i from 1 through 10{
+  .p--#{$i}{
+      margin-bottom :$i + rem;
+  }
+ 
+}
+
+@for $i from 1 through 10{
+  .ml--#{$i}{
+  margin-left :$i + rem;
+  }
+ 
+}
+
+@for $i from 1 through 20{
+  .mr--#{$i}{
+  margin-right :$i + rem;
+  }
+ 
+}
+
+
+
